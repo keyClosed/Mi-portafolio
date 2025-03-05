@@ -8,14 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Keyly Johana Ovallos Diaz </h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Hoja de Vida</a></li>
-                <li><a href="academico.html">Perfil Académico</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <h1>Keyly Johana Ovallos Diaz</h1>
+        <div class="nav-links">
+            <a href="index.html">Hoja de Vida</a>
+            <a href="academico.html">Perfil Académico</a>
+        </div>
     </header>
 
     <section>
@@ -55,21 +53,31 @@
     </div>
 </section>
 
-    <section>
-        <h2>Proyectos</h2>
-        <video controls>
-            <source src="videos/proyecto.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-        </video>
-    </section>
-
-    <footer>
-        <div class="social-icons">
-            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="github"><i class="fab fa-github"></i></a> 
-            <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
-            <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+<section class="cursos">
+    <h2>Cursos</h2>
+    <div class="cursos-container">
+        <div class="curso">
+            <h3>Database Design</h3>
+            <p>Academia  oracle academy</p>
         </div>
-    </footer>
+        <div class="curso">
+            <h3>Database Programming with SQL </h3>
+            <p>Academia  oracle academy</p>
+        </div>
+        <div class="curso">
+            <h3>Manejo basico de herramientos ofimaticas</h3>
+            <p>El sena </p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/keylyovad/" class="instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/keyClosed" class="github"><i class="fab fa-github"></i></a> 
+        <a href="https://www.youtube.com/@keylyjohanaovallosdiaz3690" class="youtube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100009762678720&locale=es_LA" class="facebook"><i class="fab fa-facebook"></i></a>
+    </div>
+</footer>
 </body>
 </html>
